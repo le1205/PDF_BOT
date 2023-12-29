@@ -237,7 +237,7 @@ export default function Home() {
                   >
                     {loading ? (
                       <div className={styles.loadingwheel}>
-                        <LoadingDots color="#000" />
+                        <LoadingDots color="#f00" />
                       </div>
                     ) : (
                       // Send icon SVG in input field
